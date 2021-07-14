@@ -1,0 +1,84 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    width: 100%;
+    border: 2px solid hsl(233, 47%, 7%);
+    /* padding: 150px 150px; */
+    /* padding: 150px; */
+    padding-bottom: 150px;
+    
+}
+
+.mainp{
+    display: flex;
+    /* margin: 150px 150px; */
+    border-radius: 9px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 150px;
+        
+}
+
+.one{
+    background-color:  hsl(244, 38%, 16%);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+
+.count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.two{
+    flex:1;
+    /* background-color: hsl(277, 64%, 61%); */
+    background: linear-gradient(to right,hsl(277, 64%, 61%), hsl(277, 64%, 61%));
+    z-index: 2;
+}
+.two img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    
+
+    /* margin: 0;
+    padding: 0; */
+}
+
+.one-i{
+    margin: 50px;
+}
+
+.heading{
+    color:hsl(0, 0%, 100%);
+    font-family: "Inter";
+    font-weight: 400,700;
+
+}
+
+.desc{
+    color:hsla(0, 0%, 79%, 0.75);
+}
+
+.ct{
+    color:hsla(0, 0%, 79%, 0.75);
+}
+
+span{
+    color: hsl(277, 64%, 61%)
+}
+
+.background{
+    /* background-image: linear-gradient(to right bottom,
+    hsl(277, 64%, 61%),
+    hsl(277, 64%, 61%)), */
+    background-image:url(image-header-desktop.jpg);
+}
+
